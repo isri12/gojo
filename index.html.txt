@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Facebook Marketplace</title>
+</head>
+<body>
+  <header>
+    <h1>Facebook Marketplace</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="product-listing">
+    <!-- Product items go here -->
+    <div class="product">
+      <img src="product1.jpg" alt="Product 1">
+      <div class="product-details">
+        <h3>Product 1</h3>
+        <p>Description of Product 1.</p>
+        <span>$50</span>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="product2.jpg" alt="Product 2">
+      <div class="product-details">
+        <h3>Product 2</h3>
+        <p>Description of Product 2.</p>
+        <span>$30</span>
+      </div>
+    </div>
+    <!-- Add more product items as needed -->
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Facebook. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
